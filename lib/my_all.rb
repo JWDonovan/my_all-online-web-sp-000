@@ -6,12 +6,12 @@ def my_all?(collection)
   while i < collection.length do
     ret = yield(collection[i])
 
-    if ret == true
-      return ret
-    elsif ret == false
+    if ret == false
       return false
     end
 
     i += 1
   end
+
+  true
 end
