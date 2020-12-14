@@ -6,7 +6,7 @@ def my_all?(collection)
   while i < collection.length do
     ret = yield(collection[i])
 
-    if ret.nil?
+    if ret == true || ret == false
       return ret
     end
 
