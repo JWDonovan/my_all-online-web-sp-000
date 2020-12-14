@@ -9,6 +9,7 @@ def my_all?(collection)
     if ret == true
       return ret
     elsif ret == false
+      return false
     end
 
     i += 1
